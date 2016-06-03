@@ -1,0 +1,7 @@
+@mixin getPrefix($prefix,$value) {
+  -webkit-#{$prefix}: $value; 
+  -moz-#{$prefix}: $value; 
+  -ms-#{$prefix}: $value; 
+  -o-#{$prefix}: $value; 
+  #{$prefix}: $value; 
+}

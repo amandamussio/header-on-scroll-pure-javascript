@@ -1,0 +1,57 @@
+@import
+    "variables",
+    "mixins"
+;
+#header-main {
+	background-color: $color-background;
+	padding: 10px 0;
+	margin-bottom: 30px;
+	min-height: 60px;
+	overflow: hidden;
+	@include getPrefix(transition,all 0.5s linear);
+	.logo {
+		float: left;
+		img {
+			padding: 10px 0;
+		}
+	}
+	nav {
+		float: right;
+		position: relative;
+		top: 20px;
+		ul {
+			margin: 0;
+			padding-left: 0;
+			li {
+				list-style: none;
+				display: inline-block;
+				a {
+					color: $color-main;
+					text-decoration: none;
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+	&.active {
+		background-color: $color-main;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		margin-bottom: 0;
+		@include getPrefix(box-shadow,0px 3px 3px 0px rgba(0,0,0,0.38));
+		@include getPrefix(transition,all 0.5s linear);
+		.logo {
+			img {
+				max-width: 50%;
+			}
+		}
+		nav {
+			li {
+				a {
+					color: $color-white;
+				}
+			}
+		}
+	}
+}

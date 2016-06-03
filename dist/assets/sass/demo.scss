@@ -1,0 +1,24 @@
+@import
+        "variables"
+;
+body {
+	font-family: $font-main;
+	background-color: $color-background;
+	font-size: $font-size-main;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+}
+section {
+	h2 {
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+}
+article {
+	p {
+		text-align: justify;
+		margin-bottom: 10px;
+	}
+}
