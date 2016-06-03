@@ -3,7 +3,9 @@
 	var headerScroll = getId('header-main'),
 		scrollHeight = 500,
 		menuIcon 	 = getId('menu-icon'),
-		menuMain 	 = getId('menu-main');
+		menuMain 	 = getId('menu-main'),
+		classMenu    = 'menu-active',
+		classHeader	 = 'active';
 
 	//SCROLL
 	window.addEventListener("scroll", scrollOn);
@@ -14,7 +16,7 @@
 
 	//MENU RESPONSIVE 
 	menuIcon.onclick = function(){
-	 	toggle(menuMain,'menu-active'); 
+	 	toggle(menuMain,clMenu); 
 	}
 
 	//Função que on scroll muda o comportamento do elemento
