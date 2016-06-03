@@ -7,6 +7,7 @@
 
 	<!-- FONTS -->
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,800,700' rel='stylesheet' type='text/css'>
+	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="assets/css/reset.css">
@@ -24,7 +25,11 @@
 				<img src="assets/images/logo.png" alt="Nome da Empresa Aqui">
 			</h1>
 
-			<nav>
+			<div id="menu-icon">
+				<span class="icon-menu-hamburguer"></span>
+			</div>
+
+			<nav id="menu-main">
 				<ul>
 					<li><a href="#">Link</a></li>
 					<li><a href="#">Link</a></li>
@@ -202,16 +207,26 @@
 
 	<!-- FOOTER -->
 	<footer>
-		<h5>By Amanda Mussio</h5>
-		<ul>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-		</ul>
+	<div class="container">
+		<h5>By Amanda Macedo Mussio</h5>
+			<ul class="social-media">
+				<li>
+					<a href="https://facebook.com/amandamussio/" target="_blank">
+						<span class="socicon-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/amandamussio/" target="_blank">
+						<span class="socicon-github"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</footer>
 	<!-- /FOOTER -->
 
 	<!-- SCRIPT -->
-	<script src="assets/js/header-on-scroll.js"></script>
+	<script src="assets/js/header-on-scroll-min.js"></script>
 	
 </body>
 </html>
