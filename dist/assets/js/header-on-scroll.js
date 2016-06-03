@@ -11,12 +11,12 @@
 	window.addEventListener("scroll", scrollOn);
 
 	function scrollOn() {
-		animatedScroll(headerScroll,'active',scrollHeight);
+		animatedScroll(headerScroll,classHeader,scrollHeight);
 	}
 
 	//MENU RESPONSIVE 
 	menuIcon.onclick = function(){
-	 	toggle(menuMain,clMenu); 
+	 	toggle(menuMain,classMenu); 
 	}
 
 	//Função que on scroll muda o comportamento do elemento
