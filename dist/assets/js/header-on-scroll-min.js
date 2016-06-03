@@ -1,0 +1,1 @@
+!function(){function e(){n(a,"active",c)}function n(e,n,t){y=pageYOffset,y>t?e.className=n:e.className=""}function t(e){return document.getElementById(e)}var a=t("header-main"),c=500;window.addEventListener("scroll",e)}();
