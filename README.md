@@ -6,8 +6,8 @@ Como Usar?
 
 Víncule os arquivos:
 
-style.css /no head do seu html
-header-on-scroll.js /antes do fechamento da tag < body >
+=> style.css /no head do seu html <br />
+=> header-on-scroll.js /antes do fechamento da tag < body >
 
 No arquivo header-on-scroll.js, constam todas as váriáveis que estão sendo puxadas do HTML e do CSS, caso deseje mudar
 
