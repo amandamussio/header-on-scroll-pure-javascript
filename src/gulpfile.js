@@ -7,10 +7,7 @@ var minify = require('gulp-minify');
 var path =  {
 	css: '../dist/assets/css',
 	js: '../dist/assets/js',
-	sass: '../dist/assets/sass',
-	images: '../dist/assets/images',
-	core: '../dist/core',
-	tmp: 'tmp'
+	sass: '../dist/assets/sass'
 }
 
 gulp.task('sass', function () {
