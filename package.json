@@ -1,0 +1,26 @@
+{
+  "name": "header-on-scroll-pure-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandamussio/header-on-scroll-pure-javascript.git"
+  },
+  "keywords": [
+    "header",
+    "scroll",
+    "javascript",
+    "css.",
+    "pure"
+  ],
+  "author": "Amanda Macedo Mussio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandamussio/header-on-scroll-pure-javascript/issues"
+  },
+  "homepage": "https://github.com/amandamussio/header-on-scroll-pure-javascript#readme"
+}
