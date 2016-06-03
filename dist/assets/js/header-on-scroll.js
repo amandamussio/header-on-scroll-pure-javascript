@@ -1,13 +1,20 @@
 (function(){
 
 	var headerScroll = getId('header-main'),
-		scrollHeight = 500;
+		scrollHeight = 500,
+		menuIcon 	 = getId('menu-icon'),
+		menuMain 	 = getId('menu-main');
 
+	//SCROLL
 	window.addEventListener("scroll", scrollOn);
 
-	
 	function scrollOn() {
 		animatedScroll(headerScroll,'active',scrollHeight);
+	}
+
+	//MENU RESPONSIVE 
+	menuIcon.onclick = function(){
+	 	toggle(menuMain,'menu-active'); 
 	}
 
 	//Função que on scroll muda o comportamento do elemento
@@ -18,6 +25,11 @@
 		} else {
 			element.className = '';
 		}
+	}
+
+	// Função toggle adiciona ou tira a class do elemento
+	function toggle(element,classe) {
+		element.className = element.className ? '' : classe; 
 	}
 
 	//Função que retorna o id do elemento

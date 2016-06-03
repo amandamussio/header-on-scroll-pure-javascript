@@ -1,1 +1,1 @@
-!function(){function e(){n(a,"active",c)}function n(e,n,t){y=pageYOffset,y>t?e.className=n:e.className=""}function t(e){return document.getElementById(e)}var a=t("header-main"),c=500;window.addEventListener("scroll",e)}();
+!function(){function n(){e(t,"active",i)}function e(n,e,c){y=pageYOffset,y>c?n.className=e:n.className=""}function c(n,e){n.className=n.className?"":e}function a(n){return document.getElementById(n)}var t=a("header-main"),i=500,m=a("menu-icon"),o=a("menu-main");window.addEventListener("scroll",n),m.onclick=function(){c(o,"menu-active")}}();
