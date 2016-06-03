@@ -1,8 +1,8 @@
 # header-on-scroll-pure-javascript
 
-Animação do Header on Scroll com Javacript Puro e CSS
+<h2>Animação do Header on Scroll com Javacript Puro e CSS</h2>
 
-Como Usar? 
+<strong>Como Usar?</strong> 
 
 Víncule os arquivos:
 
