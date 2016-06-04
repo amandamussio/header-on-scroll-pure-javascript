@@ -17,3 +17,6 @@ menuIcon 	 = getId('menu-icon'),
 menuMain 	 = getId('menu-main'),
 classMenu    = 'menu-active',
 classHeader	 = 'active';
+
+<strong>DEMO</strong>
+CODEPEN => http://codepen.io/amandamussio/pen/JKdOKV
